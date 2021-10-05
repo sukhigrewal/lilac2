@@ -1,20 +1,20 @@
 import React from "react"
 import Banner from "../components/Banner/banner"
 import TextBlock from "../components/TextBlock/textBlock"
-import TextBlockImg from "../components/TextBlockImg/textBlockImg"
-import Perk from "../components/Perk/perk"
-import Button from "../components/Button/button"
-import Packages from "../components/Packages/packages"
-import Package from "../components/Package/package"
+//import TextBlockImg from "../components/TextBlockImg/textBlockImg"
+//import Perk from "../components/Perk/perk"
+//import Button from "../components/Button/button"
+//import Packages from "../components/Packages/packages"
+//import Package from "../components/Package/package"
 import Contact from "../components/Contact/contact"
 import { Link } from "react-scroll"
 
-import perk1Img from "../images/speed.svg"
-import perk2Img from "../images/piggy-bank.svg"
-import perk3Img from "../images/friendly-staff.svg"
+//import perk1Img from "../images/speed.svg"
+//import perk2Img from "../images/piggy-bank.svg"
+//import perk3Img from "../images/friendly-staff.svg"
 
-import { IconContext } from "react-icons"
-import { MdDone, MdClear } from "react-icons/md"
+//import { IconContext } from "react-icons"
+//import { MdDone, MdClear } from "react-icons/md"
 
 const HomePage = () => {
   return (
@@ -22,42 +22,41 @@ const HomePage = () => {
       <Banner />
       <TextBlock
         id="about"
-        title="Developing a new business is never easy, but Startup is here to help"
-        paragraph="With a super-fast Gatsby powered website you have the perfect platform to get your idea off the ground. Its the perfect template to help turn your idea into a reality."
+        title="Applying NLP in wellness"
+        paragraph="[about applying NLP in wellness here]."
       >
         <Link to="perks" smooth={true} duration={500}>
-          <Button label="Tell Me More" cta="Tell Me More!" />
+          <Button label="WHITE PAPER" cta="WHITE PAPER" />
         </Link>
       </TextBlock>
       <TextBlockImg
         id="perks"
-        title="We have the tools to help you suceed"
-        subtitle="Startup is perfect for helping to to start and grow your business. As
-          you begin to gain new clients and expand you will see the benefits of
-          a super-fast Gatsby website"
+        title="We have multiple products for individuals, doctors, and practices"
+        subtitle="Subtitles. Somehow, no one has thought of this before. There aren't enough women in tech, or enough doctors. Well, there are...No one has been doing anything right."
       >
-        <div className="flex-container trio-block">
-          <Perk
-            img={perk1Img}
-            alt="Super fast speed increases"
-            title="Speedy"
-            content="Super-fast response times ensure your business is not affected"
-          />
-          <Perk
-            img={perk2Img}
-            alt="Great savings to be made"
-            title="Affordable"
-            content="A choice of packages to suit every business type and size"
-          />
-          <Perk
-            img={perk3Img}
-            alt="Super fast speed increases"
-            title="Friendly"
-            content="Advisors who are available 24/7, all with exprt knowledge"
-          />
-        </div>
-      </TextBlockImg>
-      <Packages
+        //<div className="flex-container trio-block">
+        //  <Perk
+        //    img={perk1Img}
+        //    alt="Super fast speed increases"
+        //    title="Change the world"
+        //    content="We're running out of time."
+        //  />
+        //  <Perk
+        //    img={perk2Img}
+        //    alt="Great savings to be made"
+        //    title="Affordable"
+        //    content="A choice of packages to suit every business type and size"
+        //  />
+        //  <Perk
+        //    img={perk3Img}
+        //    alt="Super fast speed increases"
+        //    title="Friendly"
+        //    content="Advisors who are available 24/7, all with exprt knowledge"
+       //   />
+      //  </div>
+     // </TextBlockImg>
+          
+     /* <Packages
         title="Our Packages"
         para="Choose the perfect solution for you. With benefits to suit all budgets Startup can offer amazing value and expert advice"
       >
@@ -138,6 +137,8 @@ const HomePage = () => {
           </Package>
         </IconContext.Provider>
       </Packages>
+      *\
+      
       <Contact
         id="contact"
         title="Contact Startup today and see how we can help your business grow"
